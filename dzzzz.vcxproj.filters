@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Func">
+      <UniqueIdentifier>{d6ecba35-8562-4337-9ab4-f1de2f9c319b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prog">
+      <UniqueIdentifier>{0c2b22af-8f02-4508-84d8-4814777151be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="function.cpp">
+      <Filter>Func</Filter>
+    </ClCompile>
+    <ClCompile Include="prog.cpp">
+      <Filter>prog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="function.h">
+      <Filter>Func</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
